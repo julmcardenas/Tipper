@@ -48,7 +48,7 @@ class ViewController: UIViewController {
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
         
-        //Update amount per person
+        //Calculate split and update amount per person
         let numPerson = Double(splitField.text!) ?? 1
         let split = total/numPerson
         splitLabel.text = String(format: "$%.2f", split)
