@@ -47,14 +47,8 @@ class ViewController: UIViewController {
         //Update the tip and total labels
         tipLabel.text = String(format: "$%.2f", tip)
         totalLabel.text = String(format: "$%.2f", total)
-    }
-    
-    @IBAction func calculateSplit(_ sender: Any) {
-        let bill = Double(billField.text!) ?? 0
-        let tipPercentages = [0.15, 0.18, 0.2]
-        let tip = bill * tipPercentages[tipControl.selectedSegmentIndex]
-        let total = bill + tip
         
+        //Update amount per person
         let numPerson = Double(splitField.text!) ?? 1
         let split = total/numPerson
         splitLabel.text = String(format: "$%.2f", split)

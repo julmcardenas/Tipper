@@ -81,7 +81,6 @@
 		E3EFC51B258EDEE50092061C = {
 			isa = PBXGroup;
 			children = (
-				E3EFC55A25943F6B0092061C /* SettingsViewController.swift */,
 				E3EFC526258EDEE50092061C /* Tipper */,
 				E3EFC53D258EDEE60092061C /* TipperTests */,
 				E3EFC548258EDEE60092061C /* TipperUITests */,
@@ -102,6 +101,7 @@
 		E3EFC526258EDEE50092061C /* Tipper */ = {
 			isa = PBXGroup;
 			children = (
+				E3EFC55A25943F6B0092061C /* SettingsViewController.swift */,
 				E3EFC527258EDEE50092061C /* AppDelegate.swift */,
 				E3EFC529258EDEE50092061C /* SceneDelegate.swift */,
 				E3EFC52B258EDEE50092061C /* ViewController.swift */,
